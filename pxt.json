@@ -1,0 +1,24 @@
+{
+    "name": "robot",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "microphone": "*",
+        "motor": "github:dfrobot/pxt-motor#2cdf17586556c5a532782aa436c516ae50f5f316",
+        "APDS9930": "github:makecode-extensions/apds9930#v1.1.0",
+        "BH1750": "github:makecode-extensions/bh1750#v1.2.0",
+        "bluetooth": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
